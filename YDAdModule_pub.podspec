@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     可选的第三方ADN：穿山甲(字节跳动)、广点通(腾讯)、百度、快手。
     开发者可根据需求选择集成的广告网络。
   DESC
-  s.source           = { :git => 'https://github.com/yuedong12345/ydsdk_pub.git', :tag =>spec.version.to_s }
+  s.source           = { :git => 'https://github.com/yuedong12345/ydsdk_pub.git', :tag =>s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.static_framework = true
 
