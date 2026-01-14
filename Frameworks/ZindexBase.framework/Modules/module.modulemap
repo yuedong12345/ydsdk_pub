@@ -1,0 +1,6 @@
+framework module ZindexBase {
+  umbrella header "ZindexBase.h"
+  export *
+
+  module * { export * }
+}
