@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # ========================================
   # 核心模块 (必选)
   # ========================================
-  s.subspec 'Core' do |core|）
+  s.subspec 'Core' do |core|
     core.vendored_frameworks = [
       'YDAdModule.xcframework',
       'Frameworks/ZindexBase.framework',  
