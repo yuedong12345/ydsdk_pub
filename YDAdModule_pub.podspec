@@ -31,6 +31,15 @@ Pod::Spec.new do |s|
     core.dependency 'YFAdsSDK/YFAdsSDK', '6.0.8.0'
     core.dependency 'YFAdsSDK/YFAdsSubstrate', '6.0.8.0'
 
+		# Core中声明所有第三方SDK的依赖，因为Core代码里调用了这些类
+    core.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '6.4.1.0'
+    core.dependency 'GDTMobSDK', '4.15.10'
+    core.dependency 'KSAdSDK', '3.3.69.3'
+    core.dependency 'BaiduMobAdSDK', '5.14'
+    core.dependency 'CSJMGdtAdapter', '4.14.45.0'
+    core.dependency 'CSJMBaiduAdapter', '5.325.1'
+    core.dependency 'CSJMKsAdapter', '3.3.55.0.0
+    
     # 核心模块定义预编译宏
     core.pod_target_xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1'
