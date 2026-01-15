@@ -19,33 +19,41 @@ Pod::Spec.new do |s|
   # ========================================
   s.subspec 'Core' do |core|
     core.vendored_frameworks = [
-      'YDAdModule.xcframework',
-      'Frameworks/ZindexBase.framework',  
+      'YDAdModule.xcframework', 
       'Frameworks/UbiXAdSDK.framework',   
       'Frameworks/UbiXDaq.framework'      
     ]
 
+    # CXHR ADN - ZindexBase SDK (仅支持真机，不支持模拟器)
+    # 使用 preserve_paths 保留文件，通过条件编译在真机时链接
+    core.preserve_paths = 'Frameworks/ZindexBase.framework'
+
     # 引入资源bundle
     core.resources = 'YDAdModule.bundle'
 
+    # core.preserve_paths = 'YDAdModule/Frameworks/ZindexBase.framework'
+    
     core.dependency 'YFAdsSDK/YFAdsSDK', '6.0.8.0'
     core.dependency 'YFAdsSDK/YFAdsSubstrate', '6.0.8.0'
-
-		# Core中声明所有第三方SDK的依赖，因为Core代码里调用了这些类
-    core.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '6.4.1.0'
-    core.dependency 'GDTMobSDK', '4.15.10'
-    core.dependency 'KSAdSDK', '3.3.69.3'
-    core.dependency 'BaiduMobAdSDK', '5.14'
-    core.dependency 'CSJMGdtAdapter', '4.14.45.0'
-    core.dependency 'CSJMBaiduAdapter', '5.325.1'
-    core.dependency 'CSJMKsAdapter', '3.3.55.0.0
     
+    # 'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/YDAdModule/Frameworks"',
     # 核心模块定义预编译宏
     core.pod_target_xcconfig = {
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1'
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1',
+      # 真机：手动链接 ZindexBase
+      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -framework ZindexBase',
+      'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/Frameworks"',
+      # 模拟器：不链接 ZindexBase
+      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited)',
     }
+    # 'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/YDAdModule/Frameworks"',
     core.user_target_xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1',
+      # 真机：手动链接 ZindexBase
+      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -framework ZindexBase',
+      'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/Frameworks"',
+      # 模拟器：不链接 ZindexBase
+      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited)',
       'GENERATE_INFOPLIST_FILE' => 'YES'
     }
   end

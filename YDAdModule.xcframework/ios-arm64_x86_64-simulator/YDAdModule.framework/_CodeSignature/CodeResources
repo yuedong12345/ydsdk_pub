@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/YDAdModule-umbrella.h</key>
 		<data>
-		eKW2hQnYy6CcwtcXVSVJKn906tc=
+		IglIjoEo8KbtG2MJeF3a/Z01K1Q=
 		</data>
 		<key>Headers/YDAdMotionManager.h</key>
 		<data>
@@ -127,6 +127,10 @@
 		<key>Headers/YDAdNativeBase.h</key>
 		<data>
 		3Kf+c++FoJS8JEkzL5zTwasBWlk=
+		</data>
+		<key>Headers/YDAdNativeBaseBD.h</key>
+		<data>
+		JjjYrVxZtBVn4pxLXIx+XXbHMvM=
 		</data>
 		<key>Headers/YDAdPolicyManager.h</key>
 		<data>
@@ -252,6 +256,10 @@
 		<data>
 		i1BpsPMhPNnUwWz3yAeSLmJruR0=
 		</data>
+		<key>Headers/YDInfoTempAdRequestBD.h</key>
+		<data>
+		rlvpW+Pe8dfdE2ghlEChDdaMDhg=
+		</data>
 		<key>Headers/YDInfoTempAdRequestCSJ.h</key>
 		<data>
 		Zv5mrGR43rJ19mhuCJ11qcbd7Ho=
@@ -267,6 +275,10 @@
 		<key>Headers/YDInfoTempAdRequestKS.h</key>
 		<data>
 		xtJs4x5kHym4uDkNSx9g1PZfbkM=
+		</data>
+		<key>Headers/YDInterAdRequestBD.h</key>
+		<data>
+		BWLMzNl5eju4gPth66M2JKPIjMQ=
 		</data>
 		<key>Headers/YDInterAdRequestCSJ.h</key>
 		<data>
@@ -328,6 +340,10 @@
 		<data>
 		/bASSVqQhG+rr6ySz7zAIJnqc3Y=
 		</data>
+		<key>Headers/YDRewardAdRequestBD.h</key>
+		<data>
+		yd/jK43gkm/wS+YzXY4kNh/Xe68=
+		</data>
 		<key>Headers/YDRewardAdRequestCSJ.h</key>
 		<data>
 		Ryp4/ooyGmk6U2qkIQ9GdqY255M=
@@ -363,6 +379,10 @@
 		<key>Headers/YDSplashAdRequest.h</key>
 		<data>
 		xkAsld9YJJ1yDQUMZ4smQOUuNVc=
+		</data>
+		<key>Headers/YDSplashAdRequestBD.h</key>
+		<data>
+		OsVW80OZZTMj6xL01AsaqbakUlI=
 		</data>
 		<key>Headers/YDSplashAdRequestCSJ.h</key>
 		<data>
@@ -410,7 +430,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ERk5Q9M/qBhWcGj7A/zxu46c54w=
+		J1TMChpjMHFKMsCIVcl1+AmgnCQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -619,7 +639,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b12y1l466ud4jtEM2Grpa3/ojRMfWLlsNJt3IrFd3KU=
+			k1Sw9EoN0wkRGGPgl4OTihrEKwKMy33g+PLu3FCtQAA=
 			</data>
 		</dict>
 		<key>Headers/YDAdMotionManager.h</key>
@@ -634,6 +654,13 @@
 			<key>hash2</key>
 			<data>
 			1ZMaEdSQHZd+SBDEd17HgTn0xfiOgM7F1eKN6qEtva8=
+			</data>
+		</dict>
+		<key>Headers/YDAdNativeBaseBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eEE2nXVYQ43ApDmWo69UDN8b4nd9LyH3oBXwbsKbygk=
 			</data>
 		</dict>
 		<key>Headers/YDAdPolicyManager.h</key>
@@ -853,6 +880,13 @@
 			p+jruTbXMKN8Dh2vuiCuXMzWypz4qrjAuP7UyznGvNE=
 			</data>
 		</dict>
+		<key>Headers/YDInfoTempAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LKxWYx7MUV4QjYK3IUQu9kxH9SpKkvWoathB02RNJ/s=
+			</data>
+		</dict>
 		<key>Headers/YDInfoTempAdRequestCSJ.h</key>
 		<dict>
 			<key>hash2</key>
@@ -879,6 +913,13 @@
 			<key>hash2</key>
 			<data>
 			A+GhqMrOS9LW8kR9E0LZ2OHfCFxW6A1DemSpaXvZdCE=
+			</data>
+		</dict>
+		<key>Headers/YDInterAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hEGRj0t/L1wMfORapQ4PN2tl+ZQHZJXxpJizJg06Xfo=
 			</data>
 		</dict>
 		<key>Headers/YDInterAdRequestCSJ.h</key>
@@ -986,6 +1027,13 @@
 			kU/NreQbZUaOs400ej+uWUGssLGw1S9RPD/y3ttiB28=
 			</data>
 		</dict>
+		<key>Headers/YDRewardAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			115+ZWIx6dCJk067mvRUZkIuggQmj6hxNsPM5Pw7/+A=
+			</data>
+		</dict>
 		<key>Headers/YDRewardAdRequestCSJ.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1047,6 +1095,13 @@
 			<key>hash2</key>
 			<data>
 			YED+7wdsr9FCuFopxSafbzbYjuJoPaGV7HDeJtv74H8=
+			</data>
+		</dict>
+		<key>Headers/YDSplashAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1scTG+hS/eMc/+RDDqpOC4uJZivvx9OXuDwrV5lbn/A=
 			</data>
 		</dict>
 		<key>Headers/YDSplashAdRequestCSJ.h</key>

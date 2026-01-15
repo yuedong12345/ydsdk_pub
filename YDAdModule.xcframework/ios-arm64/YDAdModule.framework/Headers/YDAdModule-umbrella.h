@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "YDAdNativeBaseBD.h"
+#import "YDInfoTempAdRequestBD.h"
+#import "YDInterAdRequestBD.h"
+#import "YDRewardAdRequestBD.h"
+#import "YDSplashAdRequestBD.h"
 #import "YDBannerAdRequestCSJ.h"
 #import "YDCSJInitializer.h"
 #import "YDInfoTempAdRequestCSJ.h"
