@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YDAdModule_pub'
-  s.version          = '3.0.0.12'
+  s.version          = '3.0.0.13'
   s.license          = { :type => 'MIT' }
   s.homepage         = 'https://github.com/yuedong12345/ydsdk_pub.git'
   s.author           = { 'yuedong12345' => 'yuedong12345@126.com' }
@@ -148,25 +148,6 @@ Pod::Spec.new do |s|
     }
     bd.user_target_xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_BD_ENABLED=1'
-    }
-  end
-
-  # ========================================
-  # 泛微 ADN (可选)
-  # SDK组成：PTGAdFramework
-  # ========================================
-  s.subspec 'Fanwei' do |fanwei|
-    fanwei.dependency 'YDAdModule_pub/Core'
-
-    # 泛微广告SDK
-    fanwei.dependency 'PTGAdFramework', '2.2.98'
-
-    # 定义预编译宏
-    fanwei.pod_target_xcconfig = {
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_FANWEI_ENABLED=1'
-    }
-    fanwei.user_target_xcconfig = {
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_FANWEI_ENABLED=1'
     }
   end
 
