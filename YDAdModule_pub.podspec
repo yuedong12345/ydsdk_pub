@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     开发者可根据需求选择集成的广告网络。
   DESC
   s.source           = { :git => 'https://github.com/yuedong12345/ydsdk_pub.git', :tag =>s.version.to_s }
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.static_framework = true
 
   # ========================================
@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
   # ========================================
   s.subspec 'Core' do |core|
     core.vendored_frameworks = [
-      'YDAdModule.xcframework', 
-      'Frameworks/UbiXAdSDK.framework',   
-      'Frameworks/UbiXDaq.framework'      
+      'YDAdModule.xcframework',
+      'Frameworks/UbiXAdSDK.framework',
+      'Frameworks/UbiXDaq.framework'
     ]
 
     # CXHR ADN - ZindexBase SDK (仅支持真机，不支持模拟器)
@@ -65,6 +65,9 @@ Pod::Spec.new do |s|
   s.subspec 'CSJ' do |csj|
     csj.dependency 'YDAdModule_pub/Core'
 
+    # CSJ适配器xcframework
+    csj.vendored_frameworks = 'Frameworks/YDAdModule_CSJ.xcframework'
+
     # 穿山甲融合SDK核心
     csj.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '6.4.1.0'
 
@@ -89,6 +92,9 @@ Pod::Spec.new do |s|
   s.subspec 'GDT' do |gdt|
     gdt.dependency 'YDAdModule_pub/Core'
 
+    # GDT适配器xcframework
+    gdt.vendored_frameworks = 'Frameworks/YDAdModule_GDT.xcframework'
+
     # 腾讯广点通SDK
     gdt.dependency 'GDTMobSDK', '4.15.10'
 
@@ -108,6 +114,9 @@ Pod::Spec.new do |s|
   s.subspec 'KS' do |ks|
     ks.dependency 'YDAdModule_pub/Core'
 
+    # KS适配器xcframework
+    ks.vendored_frameworks = 'Frameworks/YDAdModule_KS.xcframework'
+
     # 快手广告SDK
     ks.dependency 'KSAdSDK', '3.3.69.3'
 
@@ -126,6 +135,9 @@ Pod::Spec.new do |s|
   # ========================================
   s.subspec 'BD' do |bd|
     bd.dependency 'YDAdModule_pub/Core'
+
+    # BD适配器xcframework
+    bd.vendored_frameworks = 'Frameworks/YDAdModule_BD.xcframework'
 
     # 百度移动广告SDK
     bd.dependency 'BaiduMobAdSDK', '5.14'
