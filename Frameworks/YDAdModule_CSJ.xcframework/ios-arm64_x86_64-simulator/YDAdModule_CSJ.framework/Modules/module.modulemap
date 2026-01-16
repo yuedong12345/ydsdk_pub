@@ -1,4 +1,4 @@
-framework module YDAdModule {
+framework module YDAdModule_CSJ {
   umbrella header "YDAdModule-umbrella.h"
 
   export *
