@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/YDAdModule-umbrella.h</key>
 		<data>
-		gb4u2lFFWdh9x/Ed5CH7gW1SK5U=
+		f8s3YTtR9leQxs+qysikiDEOhCc=
 		</data>
 		<key>Headers/YDAdMotionManager.h</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Headers/YDCommon.h</key>
 		<data>
-		J/s08VhQKBVXwNgFjpLYM6rZ05M=
+		tY/XVpflt5GlZ58C9Kqc2MU987w=
 		</data>
 		<key>Headers/YDCommonParam.h</key>
 		<data>
@@ -235,14 +235,6 @@
 		<key>Headers/YDInterstitialAd.h</key>
 		<data>
 		oA48MLNBEfkOtKyH/WOa96peeJM=
-		</data>
-		<key>Headers/YDNativeAdBaseView.h</key>
-		<data>
-		bD7pIZHJGNBuULh+Q2jak8T1ceA=
-		</data>
-		<key>Headers/YDNativeAdYD.h</key>
-		<data>
-		Oh+mk0ynyx9NchXszW87Ckn5ObU=
 		</data>
 		<key>Headers/YDNativeExpressAd+Private.h</key>
 		<data>
@@ -320,42 +312,6 @@
 		<data>
 		PqX7WvPDsHl9AWtDbb2mkOIRBVo=
 		</data>
-		<key>Headers/YDTemplateCard13.h</key>
-		<data>
-		OqMbQbP6oP47Dz5O4Mv0nD7PQzQ=
-		</data>
-		<key>Headers/YDTemplateCard13ThreePic.h</key>
-		<data>
-		vTIMkh75OjxRsxHROIfal7cqde0=
-		</data>
-		<key>Headers/YDTemplateCard13Video.h</key>
-		<data>
-		2g0GcQZvGgS1/ETdQbnrmpki/XQ=
-		</data>
-		<key>Headers/YDTemplateCard14.h</key>
-		<data>
-		6LP3SAQw3vwMKhNLhy1wXkPMH5Q=
-		</data>
-		<key>Headers/YDTemplateCard14ThreePic.h</key>
-		<data>
-		1oa4NFequrnTWhH6lMiqtCXf6ks=
-		</data>
-		<key>Headers/YDTemplateCard14Video.h</key>
-		<data>
-		yVI3ppwi4rOLBrNV3KrCaeM6iYk=
-		</data>
-		<key>Headers/YDTemplateCard15.h</key>
-		<data>
-		gCvPF+kZtLVOPo7Wp+Hj6DKMHW8=
-		</data>
-		<key>Headers/YDTemplateCard16.h</key>
-		<data>
-		6LF6I+EW/t3Jp5GnkwjqOKnuOYo=
-		</data>
-		<key>Headers/YDTemplateCard16Video.h</key>
-		<data>
-		wceTY4VXPrFR+NR3XAPRkwgXfHk=
-		</data>
 		<key>Headers/YDUtils.h</key>
 		<data>
 		i12fMjb6MhwoxD5Kehzt9HVcsZU=
@@ -364,13 +320,9 @@
 		<data>
 		HwbrCwQAC0a9niKTpRTmYPRgWj8=
 		</data>
-		<key>Headers/YDViewTemplateYDBase.h</key>
-		<data>
-		Ua/oxrqNcDnxOxc+EmwfVZDMBns=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		J1TMChpjMHFKMsCIVcl1+AmgnCQ=
+		3P+ZKUsuKiiYw9tyKWAFV9t1J0Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -579,7 +531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A5ZSJM5FgLOzVqS9SRtjW1BqxHiZs2EhgYvHVcNcik4=
+			eyDXU+zyJiUKbyQHWEFriF9j0mL8Rz9Yk3w+TGRQ+xA=
 			</data>
 		</dict>
 		<key>Headers/YDAdMotionManager.h</key>
@@ -705,7 +657,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nz1yLb3onoamBa5PPgplKfdWVav5A+5cxjwx6M2uH9I=
+			u9fr2IicVa0dOizROvn1fEjakAdTa4hp8uhpMKeANIs=
 			</data>
 		</dict>
 		<key>Headers/YDCommonParam.h</key>
@@ -783,20 +735,6 @@
 			<key>hash2</key>
 			<data>
 			KggjW0XiSm1cpQUQb0jkJSme97M867Y4+dusTak477c=
-			</data>
-		</dict>
-		<key>Headers/YDNativeAdBaseView.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Nlaxzye39fAwoRttZ3gJtyyLBLuzVBaNOJzT1Hr/2nM=
-			</data>
-		</dict>
-		<key>Headers/YDNativeAdYD.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cXwcsYDJlxx94jiafgVeRMGuNgxNpuN2lYCemdVZ7Ns=
 			</data>
 		</dict>
 		<key>Headers/YDNativeExpressAd+Private.h</key>
@@ -932,69 +870,6 @@
 			Wx7SIls22FD4c2JemBdlH2gdluOLiT+KRRXg0FC+9HQ=
 			</data>
 		</dict>
-		<key>Headers/YDTemplateCard13.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gxMRnuYzP89rW5ci4ZXNutF2adikzQPgFsrAQ5z2CxQ=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard13ThreePic.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2yCER4F9XbCgjcyCVvMWEpoury8PbZ8pwHo7X7Lte7E=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard13Video.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ADb0UrFSsluc7Ou8TaxvCELI+eZd+cb5DvnED8mRVRQ=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard14.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5taKC5ggldshPPuJD2dTdFRZDZZEWBwMvntv6ngki80=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard14ThreePic.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B7l5e+bb4upA7tUZlm/7GEdhsaBIDs1onTE5hgIH7Qc=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard14Video.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tH253OQa/12e3jEvDRY39n+cVdopMNZdqSEpGIypA3Y=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard15.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Lk+Sw+FkAc7gaBiqdt3uk6Ba+yhbdVqjoyQ0EqSJMCc=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard16.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DiOkDE3TYLFI4VLlfy7+jnhJtwjxizqtjZexW7sstzc=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard16Video.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T2dppgLw992JPWnRrhTn9UtdED/10ueMZbqKm+DH2qI=
-			</data>
-		</dict>
 		<key>Headers/YDUtils.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1007,13 +882,6 @@
 			<key>hash2</key>
 			<data>
 			RhR4G6JnpPIF2UHz5olCJnMlV6pyXcarzkpKPh42OfA=
-			</data>
-		</dict>
-		<key>Headers/YDViewTemplateYDBase.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/BXc/GnGRf36iQW0irCyXwVH5ozCu1bHwPs+OipIsTs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

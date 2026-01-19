@@ -8,8 +8,8 @@
 #ifndef YDCommon_h
 #define YDCommon_h
 
-#define DEBUG_LOG
-#define DEBUG_MODE
+//#define DEBUG_LOG
+//#define DEBUG_MODE
 //#define DEBUG_TEAM_REQUEST
 //#define DEBUG_SINGLE_BIDDING_REQUEST
 

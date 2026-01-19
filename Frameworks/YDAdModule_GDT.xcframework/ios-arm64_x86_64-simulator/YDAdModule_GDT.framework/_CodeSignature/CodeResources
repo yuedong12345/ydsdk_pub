@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/YDAdModule-umbrella.h</key>
 		<data>
-		sqYbvDO1jCrA1U8u6AiZL6YTU/Q=
+		f8s3YTtR9leQxs+qysikiDEOhCc=
 		</data>
 		<key>Headers/YDAdMotionManager.h</key>
 		<data>
@@ -172,10 +172,6 @@
 		<data>
 		hGtOxyd7NHm2Z/U3mGT92SXu5xc=
 		</data>
-		<key>Headers/YDBannerAdRequestGDT.h</key>
-		<data>
-		AADPYjRG3vsaZS2zPT/MCRJYw28=
-		</data>
 		<key>Headers/YDBannerAdRequestYD.h</key>
 		<data>
 		NKrjqlpIHtaEryysgpN+E6cCFy0=
@@ -194,7 +190,7 @@
 		</data>
 		<key>Headers/YDCommon.h</key>
 		<data>
-		J/s08VhQKBVXwNgFjpLYM6rZ05M=
+		tY/XVpflt5GlZ58C9Kqc2MU987w=
 		</data>
 		<key>Headers/YDCommonParam.h</key>
 		<data>
@@ -224,25 +220,9 @@
 		<data>
 		7dEdkoUqGIj30AaZRc7I3LQFO/I=
 		</data>
-		<key>Headers/YDGDTInitializer.h</key>
-		<data>
-		OWYvubS/7ZVELdyCubeh4oVY4mA=
-		</data>
-		<key>Headers/YDInfoRenderAdRequestGDT.h</key>
-		<data>
-		8dMgc3nU9rLzjOJsBqYBoRq8thY=
-		</data>
 		<key>Headers/YDInfoRenderAdRequestYD.h</key>
 		<data>
 		i1BpsPMhPNnUwWz3yAeSLmJruR0=
-		</data>
-		<key>Headers/YDInfoTempAdRequestGDT.h</key>
-		<data>
-		f/cobm10GMjGmHN51Dbk3XF9Nds=
-		</data>
-		<key>Headers/YDInterAdRequestGDT.h</key>
-		<data>
-		8TCOEXCucxCov87iUPfW4asMrAY=
 		</data>
 		<key>Headers/YDInterAdRequestYD.h</key>
 		<data>
@@ -255,18 +235,6 @@
 		<key>Headers/YDInterstitialAd.h</key>
 		<data>
 		oA48MLNBEfkOtKyH/WOa96peeJM=
-		</data>
-		<key>Headers/YDNativeAdBaseView.h</key>
-		<data>
-		bD7pIZHJGNBuULh+Q2jak8T1ceA=
-		</data>
-		<key>Headers/YDNativeAdGDT.h</key>
-		<data>
-		T/K/dgcizRa08ENYDpcP8MNpC5c=
-		</data>
-		<key>Headers/YDNativeAdYD.h</key>
-		<data>
-		Oh+mk0ynyx9NchXszW87Ckn5ObU=
 		</data>
 		<key>Headers/YDNativeExpressAd+Private.h</key>
 		<data>
@@ -296,10 +264,6 @@
 		<data>
 		/bASSVqQhG+rr6ySz7zAIJnqc3Y=
 		</data>
-		<key>Headers/YDRewardAdRequestGDT.h</key>
-		<data>
-		mTvA1nWThU0gXgcJtHRJqWkZdaE=
-		</data>
 		<key>Headers/YDRewardAdRequestYD.h</key>
 		<data>
 		9T1/958GO0pjf3XDt+EzwGwQvsQ=
@@ -323,10 +287,6 @@
 		<key>Headers/YDSplashAdRequest.h</key>
 		<data>
 		xkAsld9YJJ1yDQUMZ4smQOUuNVc=
-		</data>
-		<key>Headers/YDSplashAdRequestGDT.h</key>
-		<data>
-		M/ScY7clCmrsFW3+UFP05H8zDTg=
 		</data>
 		<key>Headers/YDSplashAdRequestYD.h</key>
 		<data>
@@ -352,69 +312,61 @@
 		<data>
 		PqX7WvPDsHl9AWtDbb2mkOIRBVo=
 		</data>
-		<key>Headers/YDTemplateCard13.h</key>
-		<data>
-		OqMbQbP6oP47Dz5O4Mv0nD7PQzQ=
-		</data>
-		<key>Headers/YDTemplateCard13ThreePic.h</key>
-		<data>
-		vTIMkh75OjxRsxHROIfal7cqde0=
-		</data>
-		<key>Headers/YDTemplateCard13Video.h</key>
-		<data>
-		2g0GcQZvGgS1/ETdQbnrmpki/XQ=
-		</data>
-		<key>Headers/YDTemplateCard14.h</key>
-		<data>
-		6LP3SAQw3vwMKhNLhy1wXkPMH5Q=
-		</data>
-		<key>Headers/YDTemplateCard14ThreePic.h</key>
-		<data>
-		1oa4NFequrnTWhH6lMiqtCXf6ks=
-		</data>
-		<key>Headers/YDTemplateCard14Video.h</key>
-		<data>
-		yVI3ppwi4rOLBrNV3KrCaeM6iYk=
-		</data>
-		<key>Headers/YDTemplateCard15.h</key>
-		<data>
-		gCvPF+kZtLVOPo7Wp+Hj6DKMHW8=
-		</data>
-		<key>Headers/YDTemplateCard16.h</key>
-		<data>
-		6LF6I+EW/t3Jp5GnkwjqOKnuOYo=
-		</data>
-		<key>Headers/YDTemplateCard16Video.h</key>
-		<data>
-		wceTY4VXPrFR+NR3XAPRkwgXfHk=
-		</data>
 		<key>Headers/YDUtils.h</key>
 		<data>
 		i12fMjb6MhwoxD5Kehzt9HVcsZU=
-		</data>
-		<key>Headers/YDViewTemplate13GDT.h</key>
-		<data>
-		kF2Jo89uusYImjCLV331LLQjVFM=
 		</data>
 		<key>Headers/YDViewTemplateCommon.h</key>
 		<data>
 		HwbrCwQAC0a9niKTpRTmYPRgWj8=
 		</data>
-		<key>Headers/YDViewTemplateGDTBase.h</key>
-		<data>
-		qqr6lysSrdd8gmG1xqldE/tCZ9I=
-		</data>
-		<key>Headers/YDViewTemplateYDBase.h</key>
-		<data>
-		Ua/oxrqNcDnxOxc+EmwfVZDMBns=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		tA5pInGB4YD7rMrot8ZujauSGpk=
+		4M2vyCFJp1cl/GkbXk4+SH27AQI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		KkFzLhh85VfSpsGPDMnz+rHJJ6w=
+		</data>
+		<key>PrivateHeaders/YDBannerAdRequestGDT.h</key>
+		<data>
+		AADPYjRG3vsaZS2zPT/MCRJYw28=
+		</data>
+		<key>PrivateHeaders/YDGDTInitializer.h</key>
+		<data>
+		OWYvubS/7ZVELdyCubeh4oVY4mA=
+		</data>
+		<key>PrivateHeaders/YDInfoRenderAdRequestGDT.h</key>
+		<data>
+		8dMgc3nU9rLzjOJsBqYBoRq8thY=
+		</data>
+		<key>PrivateHeaders/YDInfoTempAdRequestGDT.h</key>
+		<data>
+		f/cobm10GMjGmHN51Dbk3XF9Nds=
+		</data>
+		<key>PrivateHeaders/YDInterAdRequestGDT.h</key>
+		<data>
+		8TCOEXCucxCov87iUPfW4asMrAY=
+		</data>
+		<key>PrivateHeaders/YDNativeAdGDT.h</key>
+		<data>
+		T/K/dgcizRa08ENYDpcP8MNpC5c=
+		</data>
+		<key>PrivateHeaders/YDRewardAdRequestGDT.h</key>
+		<data>
+		mTvA1nWThU0gXgcJtHRJqWkZdaE=
+		</data>
+		<key>PrivateHeaders/YDSplashAdRequestGDT.h</key>
+		<data>
+		M/ScY7clCmrsFW3+UFP05H8zDTg=
+		</data>
+		<key>PrivateHeaders/YDViewTemplate13GDT.h</key>
+		<data>
+		kF2Jo89uusYImjCLV331LLQjVFM=
+		</data>
+		<key>PrivateHeaders/YDViewTemplateGDTBase.h</key>
+		<data>
+		qqr6lysSrdd8gmG1xqldE/tCZ9I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -619,7 +571,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6IBlplbhjesBck2AI5FVOiZ5J06jvZPhsnlx2+l+O0E=
+			eyDXU+zyJiUKbyQHWEFriF9j0mL8Rz9Yk3w+TGRQ+xA=
 			</data>
 		</dict>
 		<key>Headers/YDAdMotionManager.h</key>
@@ -713,13 +665,6 @@
 			BHUgjVtZqadvN6ocd6cegk8E3pekLVoA6vJevsyV4S0=
 			</data>
 		</dict>
-		<key>Headers/YDBannerAdRequestGDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BfBdk9OzD+9k2wUQq0ZsOw0y9g0zkEVVGm51vw5fn3E=
-			</data>
-		</dict>
 		<key>Headers/YDBannerAdRequestYD.h</key>
 		<dict>
 			<key>hash2</key>
@@ -752,7 +697,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nz1yLb3onoamBa5PPgplKfdWVav5A+5cxjwx6M2uH9I=
+			u9fr2IicVa0dOizROvn1fEjakAdTa4hp8uhpMKeANIs=
 			</data>
 		</dict>
 		<key>Headers/YDCommonParam.h</key>
@@ -804,39 +749,11 @@
 			2rWJ/5/8otwYTWv+jMY3Hj0DZ9HjZRwuaxDNkYy8Tec=
 			</data>
 		</dict>
-		<key>Headers/YDGDTInitializer.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fxvhWE6yv6kVSiOV8I7eHGW4GAcT/VOgBYgJkKmnPCg=
-			</data>
-		</dict>
-		<key>Headers/YDInfoRenderAdRequestGDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R32b1ADdS87cNHdCu9yGN/if6F16vhonAn9lIII4d64=
-			</data>
-		</dict>
 		<key>Headers/YDInfoRenderAdRequestYD.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			p+jruTbXMKN8Dh2vuiCuXMzWypz4qrjAuP7UyznGvNE=
-			</data>
-		</dict>
-		<key>Headers/YDInfoTempAdRequestGDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z5vp3oL/HUU3q85wrRsQ7zQ1jDyNEGtYJvK+FE4buDQ=
-			</data>
-		</dict>
-		<key>Headers/YDInterAdRequestGDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aMkA9EVNyd7HjmA10AMnNLviVpXb4+UXPxSLjKZrL60=
 			</data>
 		</dict>
 		<key>Headers/YDInterAdRequestYD.h</key>
@@ -858,27 +775,6 @@
 			<key>hash2</key>
 			<data>
 			KggjW0XiSm1cpQUQb0jkJSme97M867Y4+dusTak477c=
-			</data>
-		</dict>
-		<key>Headers/YDNativeAdBaseView.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Nlaxzye39fAwoRttZ3gJtyyLBLuzVBaNOJzT1Hr/2nM=
-			</data>
-		</dict>
-		<key>Headers/YDNativeAdGDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HPNBoUWlOtmoAFRQHMhgar9kQg3K893OBcae1yctULo=
-			</data>
-		</dict>
-		<key>Headers/YDNativeAdYD.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cXwcsYDJlxx94jiafgVeRMGuNgxNpuN2lYCemdVZ7Ns=
 			</data>
 		</dict>
 		<key>Headers/YDNativeExpressAd+Private.h</key>
@@ -930,13 +826,6 @@
 			kU/NreQbZUaOs400ej+uWUGssLGw1S9RPD/y3ttiB28=
 			</data>
 		</dict>
-		<key>Headers/YDRewardAdRequestGDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AFgzoqkAjFYorPf/yAhVTiDKNSf78vySx+tpJgDxd4Q=
-			</data>
-		</dict>
 		<key>Headers/YDRewardAdRequestYD.h</key>
 		<dict>
 			<key>hash2</key>
@@ -977,13 +866,6 @@
 			<key>hash2</key>
 			<data>
 			YED+7wdsr9FCuFopxSafbzbYjuJoPaGV7HDeJtv74H8=
-			</data>
-		</dict>
-		<key>Headers/YDSplashAdRequestGDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RqtCKUfX0FXH+jL6HDy93RIwnWs7nIbrI7CaJhz2auk=
 			</data>
 		</dict>
 		<key>Headers/YDSplashAdRequestYD.h</key>
@@ -1028,81 +910,11 @@
 			Wx7SIls22FD4c2JemBdlH2gdluOLiT+KRRXg0FC+9HQ=
 			</data>
 		</dict>
-		<key>Headers/YDTemplateCard13.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gxMRnuYzP89rW5ci4ZXNutF2adikzQPgFsrAQ5z2CxQ=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard13ThreePic.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2yCER4F9XbCgjcyCVvMWEpoury8PbZ8pwHo7X7Lte7E=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard13Video.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ADb0UrFSsluc7Ou8TaxvCELI+eZd+cb5DvnED8mRVRQ=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard14.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5taKC5ggldshPPuJD2dTdFRZDZZEWBwMvntv6ngki80=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard14ThreePic.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B7l5e+bb4upA7tUZlm/7GEdhsaBIDs1onTE5hgIH7Qc=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard14Video.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tH253OQa/12e3jEvDRY39n+cVdopMNZdqSEpGIypA3Y=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard15.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Lk+Sw+FkAc7gaBiqdt3uk6Ba+yhbdVqjoyQ0EqSJMCc=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard16.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DiOkDE3TYLFI4VLlfy7+jnhJtwjxizqtjZexW7sstzc=
-			</data>
-		</dict>
-		<key>Headers/YDTemplateCard16Video.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T2dppgLw992JPWnRrhTn9UtdED/10ueMZbqKm+DH2qI=
-			</data>
-		</dict>
 		<key>Headers/YDUtils.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KOljCSHEbEwFbi413U+awDj47SxfoW/NWoH9aoJ7lpU=
-			</data>
-		</dict>
-		<key>Headers/YDViewTemplate13GDT.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7FunwOGnLpFcw0WnWL83njCyXWM7jarkWZFilhF201c=
 			</data>
 		</dict>
 		<key>Headers/YDViewTemplateCommon.h</key>
@@ -1112,25 +924,81 @@
 			RhR4G6JnpPIF2UHz5olCJnMlV6pyXcarzkpKPh42OfA=
 			</data>
 		</dict>
-		<key>Headers/YDViewTemplateGDTBase.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3RBxXecuw1udykjsMg6rNAg1jgyMu+kdbucsE4ie7J8=
-			</data>
-		</dict>
-		<key>Headers/YDViewTemplateYDBase.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/BXc/GnGRf36iQW0irCyXwVH5ozCu1bHwPs+OipIsTs=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			sVKNHk6CiwkPHX62uyYFbn5KIF0j8qjA3u/dA3nfN58=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDBannerAdRequestGDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BfBdk9OzD+9k2wUQq0ZsOw0y9g0zkEVVGm51vw5fn3E=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDGDTInitializer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fxvhWE6yv6kVSiOV8I7eHGW4GAcT/VOgBYgJkKmnPCg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDInfoRenderAdRequestGDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R32b1ADdS87cNHdCu9yGN/if6F16vhonAn9lIII4d64=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDInfoTempAdRequestGDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z5vp3oL/HUU3q85wrRsQ7zQ1jDyNEGtYJvK+FE4buDQ=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDInterAdRequestGDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aMkA9EVNyd7HjmA10AMnNLviVpXb4+UXPxSLjKZrL60=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDNativeAdGDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HPNBoUWlOtmoAFRQHMhgar9kQg3K893OBcae1yctULo=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDRewardAdRequestGDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AFgzoqkAjFYorPf/yAhVTiDKNSf78vySx+tpJgDxd4Q=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDSplashAdRequestGDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RqtCKUfX0FXH+jL6HDy93RIwnWs7nIbrI7CaJhz2auk=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDViewTemplate13GDT.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7FunwOGnLpFcw0WnWL83njCyXWM7jarkWZFilhF201c=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDViewTemplateGDTBase.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3RBxXecuw1udykjsMg6rNAg1jgyMu+kdbucsE4ie7J8=
 			</data>
 		</dict>
 	</dict>
