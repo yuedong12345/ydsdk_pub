@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YDCommon.h"
 #import "YDAdInitializer.h"
 
 /**
