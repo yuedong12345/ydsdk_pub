@@ -328,6 +328,38 @@
 		<data>
 		OSmxTWbwxecAjvamsg/SB4yicIo=
 		</data>
+		<key>PrivateHeaders/YDAdNativeBaseBD.h</key>
+		<data>
+		JjjYrVxZtBVn4pxLXIx+XXbHMvM=
+		</data>
+		<key>PrivateHeaders/YDAdRequestFactory+BD.h</key>
+		<data>
+		VU5nsoRfZUP9RTLm2ldY6vLvqL8=
+		</data>
+		<key>PrivateHeaders/YDInfoTempAdRequestBD.h</key>
+		<data>
+		rlvpW+Pe8dfdE2ghlEChDdaMDhg=
+		</data>
+		<key>PrivateHeaders/YDInterAdRequestBD.h</key>
+		<data>
+		BWLMzNl5eju4gPth66M2JKPIjMQ=
+		</data>
+		<key>PrivateHeaders/YDNativeAdBD.h</key>
+		<data>
+		qtSSt9EPptL2VzD7W8z2rppHuI0=
+		</data>
+		<key>PrivateHeaders/YDRewardAdRequestBD.h</key>
+		<data>
+		yd/jK43gkm/wS+YzXY4kNh/Xe68=
+		</data>
+		<key>PrivateHeaders/YDSplashAdRequestBD.h</key>
+		<data>
+		OsVW80OZZTMj6xL01AsaqbakUlI=
+		</data>
+		<key>PrivateHeaders/YDViewTemplateBDBase.h</key>
+		<data>
+		cBSDxi0abt96YLl9qODgG/zV98E=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -889,6 +921,62 @@
 			<key>hash2</key>
 			<data>
 			qVTHyPcSpUPoPdMGF03T0wv6NiadVrQA9iILS1xUmhg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDAdNativeBaseBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eEE2nXVYQ43ApDmWo69UDN8b4nd9LyH3oBXwbsKbygk=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDAdRequestFactory+BD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8z7GlOcXWZEZ1WB+e5Wd1L22qDlDm29n0SpCo0uw3Os=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDInfoTempAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LKxWYx7MUV4QjYK3IUQu9kxH9SpKkvWoathB02RNJ/s=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDInterAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hEGRj0t/L1wMfORapQ4PN2tl+ZQHZJXxpJizJg06Xfo=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDNativeAdBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PNjod+CChcOowEzZrmwW36GcIvQuV1qdb6xL6wNlqSs=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDRewardAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			115+ZWIx6dCJk067mvRUZkIuggQmj6hxNsPM5Pw7/+A=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDSplashAdRequestBD.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1scTG+hS/eMc/+RDDqpOC4uJZivvx9OXuDwrV5lbn/A=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDViewTemplateBDBase.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FnombQWCBdbNpAHV+hWj8dwQOZ7l3o2b06UKKtSaiqE=
 			</data>
 		</dict>
 	</dict>

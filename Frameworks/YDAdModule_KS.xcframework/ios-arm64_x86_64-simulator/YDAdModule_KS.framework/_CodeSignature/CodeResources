@@ -328,6 +328,10 @@
 		<data>
 		S28xsErxi4JJ1RlIfGSZG893ehc=
 		</data>
+		<key>PrivateHeaders/YDAdRequestFactory+KS.h</key>
+		<data>
+		6gNsK2u8yZCRKsjjMc2xAYX+n34=
+		</data>
 		<key>PrivateHeaders/YDFullScreenAdRequestKS.h</key>
 		<data>
 		146QV9Lh4Fpeep2zg8aHQvJm9z4=
@@ -929,6 +933,13 @@
 			<key>hash2</key>
 			<data>
 			CAE3YR+vvvRDUkYGWel3i4TKP0VSf5Exf3xT92oussA=
+			</data>
+		</dict>
+		<key>PrivateHeaders/YDAdRequestFactory+KS.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0FGvM+LeJkFTc2ON0T7WEqpHCFl/GQd2mvBrnoJ/aas=
 			</data>
 		</dict>
 		<key>PrivateHeaders/YDFullScreenAdRequestKS.h</key>

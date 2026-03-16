@@ -1,0 +1,17 @@
+YDAdModule 编译信息
+==================
+编译时间: 2026-03-16 09:09:47
+Git分支: main
+Git提交: 67fdd752656790fe84564f23b91187665e0c2884
+
+编译产物:
+- YDAdModule.xcframework (Core模块 - 独立，不包含ADN适配器)
+- YDAdModule.bundle
+- Frameworks/YDAdModule_CSJ.xcframework (CSJ适配器 - 独立，不包含Core)
+- Frameworks/YDAdModule_GDT.xcframework (GDT适配器 - 独立，不包含Core)
+- Frameworks/YDAdModule_KS.xcframework (KS适配器 - 独立，不包含Core)
+- Frameworks/YDAdModule_BD.xcframework (BD适配器 - 独立，不包含Core)
+
+重要说明:
+- 各个 ADN xcframework 不再包含 Core 代码，避免符号重复
+- 用户集成时必须同时集成 Core + 所需的 ADN 模块
