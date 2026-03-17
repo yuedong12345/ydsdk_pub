@@ -16,7 +16,7 @@ typedef void (^YDConfigHandler)(BOOL success, BOOL update, NSError * _Nullable e
 
 + (YDAdPolicyManager *)sharedInstance;
 
-- (void)initConfig:(YDConfigHandler)completionHandler;
+- (void)initConfig:(NSString *)appId completionHandler:(YDConfigHandler)completionHandler;
 
 - (NSString *)getAppId:(NSString *)adProvider;
 
