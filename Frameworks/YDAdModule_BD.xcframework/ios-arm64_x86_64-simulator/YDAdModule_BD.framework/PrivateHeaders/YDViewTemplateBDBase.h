@@ -13,6 +13,7 @@
 #import <BaiduMobAdSDK/BaiduMobAdNative.h>
 #import <BaiduMobAdSDK/BaiduMobAdSmartFeedView.h>
 #import "YDViewTemplateCommon.h"
+#import "YDCommon.h"
 
 @interface YDViewTemplateBDBase : BaiduMobAdSmartFeedView
 

@@ -9,6 +9,7 @@
 #define YDViewTemplate13CSJ_h
 
 #import "YDViewTemplateCommon.h"
+#import "YDCommon.h"
 #import <BUAdSDK/BUAdSDK.h>
 
 @interface YDViewTemplate13CSJ : NSObject <YDTemplateView>

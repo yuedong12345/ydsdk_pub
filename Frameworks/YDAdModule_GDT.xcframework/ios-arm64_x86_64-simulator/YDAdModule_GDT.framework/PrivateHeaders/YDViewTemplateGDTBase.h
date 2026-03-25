@@ -11,6 +11,7 @@
 #if YDADMODULE_GDT_ENABLED
 
 #import "YDViewTemplateCommon.h"
+#import "YDCommon.h"
 #import <GDTMobSDK/GDTUnifiedNativeAdView.h>
 
 @interface YDViewTemplateGDTBase : GDTUnifiedNativeAdView

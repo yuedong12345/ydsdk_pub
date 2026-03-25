@@ -8,6 +8,6 @@
 #ifndef YDAdVersion_h
 #define YDAdVersion_h
 
-#define YDAD_VERSION @"3.0.2"
+#define YDAD_VERSION @"3.0.3"
 
 #endif /* YDAdVersion_h */

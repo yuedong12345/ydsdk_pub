@@ -9,6 +9,7 @@
 #define YDViewTemplate13GDT_h
 
 #import <GDTMobSDK/GDTUnifiedNativeAdView.h>
+#import "YDCommon.h"
 #import "YDViewTemplateCommon.h"
 
 @interface YDViewTemplate13GDT : GDTUnifiedNativeAdView <YDTemplateView>

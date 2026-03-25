@@ -9,6 +9,7 @@
 #define YDViewTemplate13KS_h
 
 #import <KSAdSDK/KSAdSDK.h>
+#import "YDCommon.h"
 #import "YDViewTemplateCommon.h"
 
 @interface YDViewTemplate13KS : UIView <YDTemplateView>

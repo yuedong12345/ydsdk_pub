@@ -11,6 +11,7 @@
 #if YDADMODULE_CSJ_ENABLED
 
 #import "YDViewTemplateCommon.h"
+#import "YDCommon.h"
 #import <BUAdSDK/BUAdSDK.h>
 
 @interface YDViewTemplateCSJBase : UIView

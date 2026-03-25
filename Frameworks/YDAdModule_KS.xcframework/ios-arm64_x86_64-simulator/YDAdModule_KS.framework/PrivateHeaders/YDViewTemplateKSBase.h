@@ -11,6 +11,7 @@
 #if YDADMODULE_KS_ENABLED
 
 #import "YDViewTemplateCommon.h"
+#import "YDCommon.h"
 #import <KSAdSDK/KSAdSDK.h>
 
 @interface YDViewTemplateKSBase : UIView

@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^YDConfigHandler)(BOOL success, BOOL update, NSError * _Nullable error);
 
+typedef void (^YDSceneConfigHandler)(BOOL success, YDAdSceneConfig *sceneConfig, NSError * _Nullable error);
+
 @interface YDAdPolicyManager : NSObject
 
 + (YDAdPolicyManager *)sharedInstance;
@@ -24,6 +26,9 @@ typedef void (^YDConfigHandler)(BOOL success, BOOL update, NSError * _Nullable e
 
 - (YDAdSceneConfig *)getSceneConfig:(NSString *)sceneId;
 
+- (void)loadSceneConfig:(NSString *)sceneId completionHandler:(YDSceneConfigHandler)completionHandler;
+
+- (BOOL)isReleaseState;
 @end
 
 NS_ASSUME_NONNULL_END

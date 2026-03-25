@@ -24,6 +24,8 @@
 
 - (NSString *)getUploadUrl;
 
+- (NSString *)getSceneConfigUrl;
+
 - (NSString *)encrypt:(NSString *)str;
 
 - (NSString *)decrypt:(NSString *)str;
