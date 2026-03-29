@@ -26,6 +26,8 @@
 
 - (NSString *)getSceneConfigUrl;
 
+- (NSString *)getCheckRewardUrl;
+
 - (NSString *)encrypt:(NSString *)str;
 
 - (NSString *)decrypt:(NSString *)str;

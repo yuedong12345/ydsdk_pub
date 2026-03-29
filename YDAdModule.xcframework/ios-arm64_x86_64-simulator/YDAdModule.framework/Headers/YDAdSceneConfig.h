@@ -31,6 +31,8 @@
 
 @property(nonatomic) NSInteger maxSingleRequestTime;
 
+@property(nonatomic) NSInteger rewardNeedServerCheck;
+
 @property (nonatomic, strong) NSString *cacheKey;
 
 @property (nonatomic, strong) NSString *requestMode;

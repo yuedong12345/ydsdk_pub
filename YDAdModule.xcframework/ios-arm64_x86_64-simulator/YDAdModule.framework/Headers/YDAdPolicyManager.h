@@ -14,6 +14,8 @@ typedef void (^YDConfigHandler)(BOOL success, BOOL update, NSError * _Nullable e
 
 typedef void (^YDSceneConfigHandler)(BOOL success, YDAdSceneConfig *sceneConfig, NSError * _Nullable error);
 
+typedef void (^YDCheckRewardHandler)(BOOL success, NSError * _Nullable error);
+
 @interface YDAdPolicyManager : NSObject
 
 + (YDAdPolicyManager *)sharedInstance;
@@ -27,6 +29,8 @@ typedef void (^YDSceneConfigHandler)(BOOL success, YDAdSceneConfig *sceneConfig,
 - (YDAdSceneConfig *)getSceneConfig:(NSString *)sceneId;
 
 - (void)loadSceneConfig:(NSString *)sceneId completionHandler:(YDSceneConfigHandler)completionHandler;
+
+- (void)checkReward:(NSString *)sceneId user_id:(NSString *)userId extra:(NSString *)extraData completionHandler:(YDCheckRewardHandler)completionHandler;
 
 - (BOOL)isReleaseState;
 @end

@@ -73,6 +73,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 广告是否有效 广告加载成功  未曝光  未过期时，为YES，否则为NO
 @property (nonatomic, assign, readonly) BOOL isAdValid;
 
+@property (nonatomic, copy, nullable) NSString *user_id;
+
 /// extra 扩展信息 最后会通过 rewardVideoDidRewardEffective info 字段透传回去
 @property (nonatomic, copy, nullable) NSString *extra;
 
