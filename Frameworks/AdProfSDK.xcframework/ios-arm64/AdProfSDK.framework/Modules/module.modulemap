@@ -1,0 +1,6 @@
+framework module AdProfSDK {
+  umbrella header "AdProfSDK.h"
+  export *
+
+  module * { export * }
+}

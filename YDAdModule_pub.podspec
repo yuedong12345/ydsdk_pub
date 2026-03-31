@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YDAdModule_pub'
-  s.version          = '3.0.3.2'
+  s.version          = '3.0.4.2'
   s.license          = { :type => 'MIT' }
   s.homepage         = 'https://github.com/yuedong12345/ydsdk_pub.git'
   s.author           = { 'yuedong12345' => 'yuedong12345@126.com' }
@@ -21,7 +21,8 @@ Pod::Spec.new do |s|
     core.vendored_frameworks = [
       'YDAdModule.xcframework',
       'Frameworks/UbiXAdSDK.framework',
-      'Frameworks/UbiXDaq.framework'
+      'Frameworks/UbiXDaq.framework',
+      'Frameworks/AdProfSDK.xcframework'
     ]
 
     # CXHR ADN - ZindexBase SDK (仅支持真机，不支持模拟器)
@@ -39,21 +40,21 @@ Pod::Spec.new do |s|
     # 'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/YDAdModule/Frameworks"',
     # 核心模块定义预编译宏
     core.pod_target_xcconfig = {
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1',
-      # 真机：手动链接 ZindexBase
-      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -framework ZindexBase',
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1 YDADMODULE_BLK_ENABLED=1',
+      # 真机：手动链接 ZindexBase 和 AdProfSDK
+      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -framework ZindexBase -framework AdProfSDK',
       'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/Frameworks"',
-      # 模拟器：不链接 ZindexBase
-      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited)',
+      # 模拟器：链接 AdProfSDK
+      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited) -framework AdProfSDK',
     }
     # 'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/YDAdModule/Frameworks"',
     core.user_target_xcconfig = {
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1',
-      # 真机：手动链接 ZindexBase
-      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -framework ZindexBase',
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) YDADMODULE_CORE_ENABLED=1 YDADMODULE_CXHR_ENABLED=1 YDADMODULE_YF_ENABLED=1 YDADMODULE_UX_ENABLED=1 YDADMODULE_BLK_ENABLED=1',
+      # 真机：手动链接 ZindexBase 和 AdProfSDK
+      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -framework ZindexBase -framework AdProfSDK',
       'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_TARGET_SRCROOT}/Frameworks"',
-      # 模拟器：不链接 ZindexBase
-      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited)',
+      # 模拟器：链接 AdProfSDK
+      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited) -framework AdProfSDK',
       'GENERATE_INFOPLIST_FILE' => 'YES'
     }
   end

@@ -46,6 +46,8 @@ static NSString * const YDAdSourceNameYF = @"yf";
 
 static NSString * const YDAdSourceNameUX = @"ux";
 
+static NSString * const YDAdSourceNameBLK = @"blk";
+
 static NSString * const YDAdSourceNameUnknown = @"unknown";
 
 #pragma mark default app id
